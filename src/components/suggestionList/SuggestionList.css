@@ -1,0 +1,51 @@
+.pList {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pListItem {
+    flex: 1;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.sListImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.sListTitle>h3 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.sListTitle>p {
+    font-size: 14px;
+    /* font-weight: 300; */
+    color: #b6b6b6;
+}
+
+.sPrice {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.sRating>button {
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.sRating>span {
+    font-size: 13px;
+    font-weight: 700;
+}
